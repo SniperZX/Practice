@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseSwitcher">
+        <item name="switcher_width">@dimen/switcher_width</item>
+        <item name="switcher_height">@dimen/switcher_height</item>
+        <item name="switcher_on_color">@color/switcher_on_color</item>
+        <item name="switcher_off_color">@color/switcher_off_color</item>
+        <item name="switcher_icon_color">@color/switcher_icon_color</item>
+    </style>
+
+    <style name="Switcher" parent="BaseSwitcher"/>
+</resources>
